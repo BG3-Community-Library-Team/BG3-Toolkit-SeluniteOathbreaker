@@ -1,6 +1,8 @@
 # BG3-Toolkit-SeluniteOathbreaker
 Public Repository for [Selunite Paladin's Oathbreaker](https://mod.io/g/baldursgate3/m/seluniteoathbreaker)
 
+![Mod Logo](Toolkit/Mods/SeluniteOathbreaker_947cc7d7-a391-0f35-2fa5-d28da370315a/mod_publish_logo.png)
+
 ---
 ## Oathbreaker Paladin
 
