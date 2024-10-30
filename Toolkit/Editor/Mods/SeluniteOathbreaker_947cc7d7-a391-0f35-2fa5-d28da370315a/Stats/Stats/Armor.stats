@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="239de60a-29b5-4010-bf7d-f6169d4ddd8a">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a8950be0-804c-4228-9805-33b36d39d547" />
+        <field name="Name" type="NameTableFieldDefinition" value="ARM_ScaleMail_Body_Paladin_Oathbroken" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0046183b-8f96-4cdf-9c90-be074094bf3e" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="ff64055a-bce5-4afd-91fe-1f2d67cbd79d" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a307b0d0-c270-42d9-baee-bebc5dd878ce" />
+        <field name="Name" type="NameTableFieldDefinition" value="ARM_Boots_Metal_Oathbroken" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0f7bcb8a-b652-46da-ab4c-6cda2bb2a637" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="1820995d-c19a-4c0f-8d58-fe80b266cd7a" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ea3a09cb-9e9c-4003-a953-28cb9085c56c" />
+        <field name="Name" type="NameTableFieldDefinition" value="ARM_Plate_Body_SeluniteOathbreaker" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="17fbd33d-6377-4ec4-b642-5c6e9b063366" />
+        <field name="ArmorClass" type="IntegerTableFieldDefinition" value="18" />
+        <field name="ArmorType" type="EnumerationTableFieldDefinition" value="Plate" enumeration_type_name="ArmorType" version="1" />
+        <field name="MinAmount" type="IntegerTableFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerTableFieldDefinition" value="1" />
+        <field name="MinLevel" type="IntegerTableFieldDefinition" value="7" />
+        <field name="Proficiency Group" type="EnumerationListTableFieldDefinition" value="HeavyArmor" enumeration_type_name="ProficiencyGroupFlags" version="1" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="4d0f675e-0157-4279-bd4b-0e5742163ef2" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="20" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Disadvantage(Skill,Stealth)" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="10" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8434458c-c06b-4803-b313-09e8a050ed87" />
+        <field name="Name" type="NameTableFieldDefinition" value="ARM_Boots_Metal_SeluniteOathbreaker" />
+        <field name="ArmorType" type="EnumerationTableFieldDefinition" value="Plate" enumeration_type_name="ArmorType" version="1" />
+        <field name="MinAmount" type="IntegerTableFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerTableFieldDefinition" value="1" />
+        <field name="MinLevel" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="07c3ef37-899d-4ade-9481-7939da51e579" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="9a48eaff-9895-44e5-86dd-c278e42ce126" />
+        <field name="Proficiency Group" type="EnumerationListTableFieldDefinition" value="MediumArmor" enumeration_type_name="ProficiencyGroupFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Skill(Athletics,1)" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="2" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3153f52d-ec31-47b9-8290-25d420133996" />
+        <field name="Name" type="NameTableFieldDefinition" value="ARM_Gloves_Metal_SeluniteOathbreaker" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="36ea3296-fa19-4022-a056-d9f02a70cc78" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="877cef77-d1fd-4d87-92ef-300ba31f41d5" />
+        <field name="Proficiency Group" type="EnumerationListTableFieldDefinition" value="MediumArmor" enumeration_type_name="ProficiencyGroupFlags" version="1" />
+        <field name="MinAmount" type="IntegerTableFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerTableFieldDefinition" value="1" />
+        <field name="MinLevel" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="RollBonus(SavingThrow, 1, Strength)" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d3ae866e-5bc7-477d-9a8e-6be28f67aab8" />
+        <field name="Name" type="NameTableFieldDefinition" value="ARM_Boots_Metal_SeluniteOathbreaker_B" />
+        <field name="ArmorType" type="EnumerationTableFieldDefinition" value="Plate" enumeration_type_name="ArmorType" version="1" />
+        <field name="MinAmount" type="IntegerTableFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerTableFieldDefinition" value="1" />
+        <field name="MinLevel" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="07c3ef37-899d-4ade-9481-7939da51e579" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="9e448853-9e05-4397-a2b3-34a160a4fcfa" />
+        <field name="Proficiency Group" type="EnumerationListTableFieldDefinition" value="MediumArmor" enumeration_type_name="ProficiencyGroupFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Skill(Athletics,1)" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="2" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="729623a7-7255-45f1-90b0-823630790f4c" />
+        <field name="Name" type="NameTableFieldDefinition" value="ARM_Plate_Body_SeluniteOathbreaker_B" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="17fbd33d-6377-4ec4-b642-5c6e9b063366" />
+        <field name="ArmorClass" type="IntegerTableFieldDefinition" value="18" />
+        <field name="ArmorType" type="EnumerationTableFieldDefinition" value="Plate" enumeration_type_name="ArmorType" version="1" />
+        <field name="MinAmount" type="IntegerTableFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerTableFieldDefinition" value="1" />
+        <field name="MinLevel" type="IntegerTableFieldDefinition" value="7" />
+        <field name="Proficiency Group" type="EnumerationListTableFieldDefinition" value="HeavyArmor" enumeration_type_name="ProficiencyGroupFlags" version="1" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="f349b556-84a3-497e-80e1-f5bfa775f28c" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="20" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Disadvantage(Skill,Stealth)" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="10" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="705418ff-7f59-48ff-95b4-5c75f0dc4373" />
+        <field name="Name" type="NameTableFieldDefinition" value="ARM_Gloves_Metal_SeluniteOathbreaker_B" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="36ea3296-fa19-4022-a056-d9f02a70cc78" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="be178c78-cd48-4007-8990-d5a934ab6504" />
+        <field name="Proficiency Group" type="EnumerationListTableFieldDefinition" value="MediumArmor" enumeration_type_name="ProficiencyGroupFlags" version="1" />
+        <field name="MinAmount" type="IntegerTableFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerTableFieldDefinition" value="1" />
+        <field name="MinLevel" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="RollBonus(SavingThrow, 1, Strength)" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="5" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

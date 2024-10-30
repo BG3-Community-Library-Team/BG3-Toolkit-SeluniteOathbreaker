@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="53912403-fe14-4ce0-89aa-96acb1dee21a">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_0" />
+        <field name="UUID" type="IdTableFieldDefinition" value="17e781c7-3709-4c68-91fc-a279329173ef" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="ba2afe85-acba-4ea1-a238-2b4543f47821" />
+        <field name="SubClasses" type="GuidObjectListTableFieldDefinition" value="853a34b7-f26e-4d40-a0a4-851d8f4aead3" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Paladin" />
+        <field name="Level" type="ByteTableFieldDefinition" value="1" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_1" />
+        <field name="UUID" type="IdTableFieldDefinition" value="3c275498-dd9e-4122-869b-27e40fae9659" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="ba2afe85-acba-4ea1-a238-2b4543f47821" />
+        <field name="SubClasses" type="GuidObjectListTableFieldDefinition" value="853a34b7-f26e-4d40-a0a4-851d8f4aead3" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Paladin" />
+        <field name="Level" type="ByteTableFieldDefinition" value="1" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="IsMulticlass" type="BoolTableFieldDefinition" value="True" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_3" />
+        <field name="UUID" type="IdTableFieldDefinition" value="504688df-4b4b-49fc-abdf-ce7af44f70b1" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="f0d6f933-4532-463f-b378-a1e8b0164325" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Oathbreaker" />
+        <field name="Level" type="ByteTableFieldDefinition" value="1" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Passive_Oathbroken_Tag" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(cb1e5aad-26cd-4370-a179-5536bfcc3d47,,,,AlwaysPrepared)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_2" />
+        <field name="UUID" type="IdTableFieldDefinition" value="87d70d94-9dc8-4e02-9c22-3660b1f718cb" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="f0d6f933-4532-463f-b378-a1e8b0164325" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Oathbreaker" />
+        <field name="Level" type="ByteTableFieldDefinition" value="1" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Passive_Oathbroken_Tag" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(cb1e5aad-26cd-4370-a179-5536bfcc3d47,,,,AlwaysPrepared)" />
+        <field name="IsMulticlass" type="BoolTableFieldDefinition" value="True" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_276" />
+        <field name="UUID" type="IdTableFieldDefinition" value="b30d32a8-00b4-46a6-91bf-5587986c8406" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="1aa30476-df89-4e22-86ff-7775a65a47b5" />
+        <field name="FSName" type="StringTableFieldDefinition" value="SeluniteOathbreaker" />
+        <field name="Level" type="ByteTableFieldDefinition" value="1" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(cb1e5aad-26cd-4370-a179-5536bfcc3d47,,,,AlwaysPrepared)" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Passive_Oathbroken_Tag" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_277" />
+        <field name="UUID" type="IdTableFieldDefinition" value="c06d2e0c-9358-46a0-aaac-3dc85a62afb4" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="1aa30476-df89-4e22-86ff-7775a65a47b5" />
+        <field name="FSName" type="StringTableFieldDefinition" value="SeluniteOathbreaker" />
+        <field name="Level" type="ByteTableFieldDefinition" value="3" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(a59baeac-1be2-40ac-b93c-20eb498b0e0b,OathSpells,,,AlwaysPrepared)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_278" />
+        <field name="UUID" type="IdTableFieldDefinition" value="dc80f9a7-e7fa-438d-b509-dc7bcac1e7b9" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="1aa30476-df89-4e22-86ff-7775a65a47b5" />
+        <field name="FSName" type="StringTableFieldDefinition" value="SeluniteOathbreaker" />
+        <field name="Level" type="ByteTableFieldDefinition" value="5" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(06330a3b-4b76-4cb0-b23d-9041a9a2868a,OathSpells,,,AlwaysPrepared)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_192" />
+        <field name="UUID" type="IdTableFieldDefinition" value="09aec4a4-5427-42ca-8950-1a739ac5199f" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="1aa30476-df89-4e22-86ff-7775a65a47b5" />
+        <field name="FSName" type="StringTableFieldDefinition" value="SeluniteOathbreaker" />
+        <field name="Level" type="ByteTableFieldDefinition" value="7" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(20c3ac99-a937-464c-810d-d2f50ba44e6e,,,,AlwaysPrepared)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_191" />
+        <field name="UUID" type="IdTableFieldDefinition" value="cc03a1d6-00d5-4ae5-ad7c-4a9ca7bd8896" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="1aa30476-df89-4e22-86ff-7775a65a47b5" />
+        <field name="FSName" type="StringTableFieldDefinition" value="SeluniteOathbreaker" />
+        <field name="Level" type="ByteTableFieldDefinition" value="9" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(dd7c1c98-73ab-4543-a17e-c19e680caaa4,OathSpells,,,AlwaysPrepared)" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

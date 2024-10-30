@@ -1,0 +1,6 @@
+new entry "WPN_Greatsword_SeluniteOathbreaker"
+type "Weapon"
+using "WPN_Greatsword_Pact"
+data "RootTemplate" "0bc41466-6d94-4155-ac46-4a7ca94d6152"
+data "Boosts" ""
+

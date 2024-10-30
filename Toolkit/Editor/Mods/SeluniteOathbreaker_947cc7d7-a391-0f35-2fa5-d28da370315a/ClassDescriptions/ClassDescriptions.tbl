@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="a86b6e82-0a7f-47cb-bff1-a0a6d161fa30">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_34" />
+        <field name="UUID" type="IdTableFieldDefinition" value="853a34b7-f26e-4d40-a0a4-851d8f4aead3" />
+        <field name="ParentUUID" type="GuidObjectTableFieldDefinition" value="ff4d9497-023c-434a-bd14-82fc367e991c" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="SeluniteOathbreaker" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4ea6aba1g9e42gacb0ge68aga86c974d0407" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4b57a012g3900g9d76g99eeg13d9e9ff5ec2" version="2" />
+        <field name="ProgressionTableUUID" type="GuidTableFieldDefinition" value="f0d6f933-4532-463f-b378-a1e8b0164325" />
+        <field name="PrimaryAbility" type="EnumerationTableFieldDefinition" value="Strength" enumeration_type_name="Ability" version="1" />
+        <field name="SpellCastingAbility" type="EnumerationTableFieldDefinition" value="Charisma" enumeration_type_name="Ability" version="1" />
+        <field name="LearningStrategy" type="EnumerationTableFieldDefinition" value="AllChildren" enumeration_type_name="LearningStrategy" version="1" />
+        <field name="MustPrepareSpells" type="BoolTableFieldDefinition" value="True" />
+        <field name="SoundClassType" type="FixedStringTableFieldDefinition" value="Paladin" />
+        <field name="CharacterCreationPose" type="GuidTableFieldDefinition" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8" />
+        <field name="SpellList" type="GuidObjectTableFieldDefinition" value="ba84af1b-cd77-458f-b99f-0062be22745c" />
+        <field name="ClassEquipment" type="FixedStringTableFieldDefinition" value="EQP_CC_Paladin_Oathbreaker" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

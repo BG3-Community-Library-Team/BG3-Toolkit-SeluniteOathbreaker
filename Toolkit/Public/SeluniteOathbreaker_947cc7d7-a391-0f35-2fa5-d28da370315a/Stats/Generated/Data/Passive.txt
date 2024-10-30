@@ -1,0 +1,8 @@
+new entry "Passive_Oathbroken_Tag"
+type "PassiveData"
+data "DisplayName" "hef25d885g0752gd6d3g14f7gd6c0965e8c38;1"
+data "Description" "h4bbbea14g4130gf05fg37c6g854a9f5bc4a9;1"
+data "Icon" "PassiveFeature_Hex"
+data "Properties" "IsToggled;ToggledDefaultOn;ToggledDefaultAddToHotbar;Highlighted;ForceShowInCC"
+data "Boosts" "Tag(OATHBREAKER)"
+
