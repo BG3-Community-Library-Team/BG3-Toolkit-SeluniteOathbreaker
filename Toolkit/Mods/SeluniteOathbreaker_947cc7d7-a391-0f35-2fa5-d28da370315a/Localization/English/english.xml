@@ -6,7 +6,7 @@
   <content contentuid="hfa0417dcg9491g2b12gf5eegd5a2e7c641df" version="1">Gold embroidery covers the inside of the tabard, right over the heart: 'By any means necessary, I will fight the Greater Evil, showing no mercy for the wicked.'</content>
   <content contentuid="hdef1b2feg87f9ge067g543cge03419b086ca" version="2">Metal Boots</content>
   <content contentuid="hef25d885g0752gd6d3g14f7gd6c0965e8c38" version="1">Oathbreaker Toggle</content>
-  <content contentuid="h4bbbea14g4130gf05fg37c6g854a9f5bc4a9" version="1">Enable and Disable the Oathbreaker tag.</content>
+  <content contentuid="h4bbbea14g4130gf05fg37c6g854a9f5bc4a9" version="2">Enable and Disable the Paladin tag.</content>
   <content contentuid="hde72d8feg0cc5gc487g373dg405b5ded25ef" version="2">Oathbreaker's Greaves</content>
   <content contentuid="hc69a3355g7093g15dag3394ga0f358d5142d" version="2">Oathbreaker's Plate</content>
   <content contentuid="h15bfdb1cg63a8g3b15g72d0g825be323f735" version="1">Metallic Boots</content>
@@ -17,4 +17,14 @@
   <content contentuid="he3eb1820g152ag43e8g6cb8g79134a0ac9cf" version="1">Oathbreaker's Gauntlets</content>
   <content contentuid="h2a39f0f6g0f0cg1788ge307g28e9b660fcca" version="1">Tempered gauntlets that are not much unlike your own hands: cold, hard and bloody.</content>
   <content contentuid="h2e0ce720g6b71g3758g173agcddee8102c22" version="1">No longer bound by your oath, you wander the realm enacting your own judgement on its denizens - wicked or just, it is executed with righteous fury nevertheless.</content>
+  <content contentuid="hc3639b1ag5cb2g1c5ega121g433bd196e06e" version="1">Oathbreaker Toggle</content>
+  <content contentuid="h76ddf1fagca45gc402g2f7eg3abb9e6d2ac6" version="1">Enable and Disable the Oathbreaker tag.</content>
+  <content contentuid="hbf0c10f0g3e86ga9f9g4d62ga77abd0743f6" version="2">Oath of the Ancients Toggle</content>
+  <content contentuid="h0ed35edbgbf13g4a53g3cccgf4344ee9a506" version="1">Enable Tag: Oath of the Ancients</content>
+  <content contentuid="hfc0fdb5bg0d5fg6467gcba9g88930a0a8bd5" version="2">Oath of Devotion Toggle</content>
+  <content contentuid="h57872e7age992g1973g9572ge65ea5d3eeb9" version="1">Enable Tag: Oath of Devotion</content>
+  <content contentuid="h2d7db45ag750bgfa0fg9026g97dd65633ff9" version="2">Oath of Vengeance Toggle</content>
+  <content contentuid="h4640f381g6b69gb53eg4899g55d388040e51" version="1">Enable Tag: Oath of Vengeance</content>
+  <content contentuid="h97fffa1cg39d4g79b8gaf18g60f7377e8e0b" version="2">Oathbreaker Toggle</content>
+  <content contentuid="ha77728b8gaea0g32e4gbec5g34d32ba43df3" version="1">Enable Tag: Oathbreaker</content>
 </contentList>

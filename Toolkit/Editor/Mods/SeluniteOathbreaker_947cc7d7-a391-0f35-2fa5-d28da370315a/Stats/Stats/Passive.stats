@@ -6,10 +6,59 @@
         <field name="UUID" type="IdTableFieldDefinition" value="5809d9ed-94f0-4a1a-b821-2341ce5aa3ac" />
         <field name="Name" type="NameTableFieldDefinition" value="Passive_Oathbroken_Tag" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hef25d885g0752gd6d3g14f7gd6c0965e8c38" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4bbbea14g4130gf05fg37c6g854a9f5bc4a9" version="1" />
-        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Hex" />
-        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsToggled;ToggledDefaultOn;ToggledDefaultAddToHotbar;Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4bbbea14g4130gf05fg37c6g854a9f5bc4a9" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Passive_SeluniteOathbreaker_Paladin" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnCreate" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(not (Tagged('OATHBREAKER_ANCIENTS',context.Source) or Tagged('OATHBREAKER_DEVOTION',context.Source) or Tagged('OATHBREAKER_VENGEANCE',context.Source)) and not HasStatus('STATUS_SELUNITEOATHBREAKER_TOGGLES')):ApplyStatus(STATUS_SELUNITEOATHBREAKER_TOGGLES,100,-1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2c8e92d7-9b21-48d0-ab48-f3feca9881fb" />
+        <field name="Name" type="NameTableFieldDefinition" value="Passive_SeluniteOathbreaker_Ancients" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hbf0c10f0g3e86ga9f9g4d62ga77abd0743f6" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0ed35edbgbf13g4a53g3cccgf4344ee9a506" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Passive_SeluniteOathbreaker_Ancients" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsToggled;ToggledDefaultAddToHotbar;IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Tag(PALADIN_ANCIENTS)" />
+        <field name="ToggleGroup" type="StringTableFieldDefinition" value="SeluniteOathbreaker" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5a19c00e-e27d-453d-946c-742dbbc00c5f" />
+        <field name="Name" type="NameTableFieldDefinition" value="Passive_SeluniteOathbreaker_Devotion" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hfc0fdb5bg0d5fg6467gcba9g88930a0a8bd5" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h57872e7age992g1973g9572ge65ea5d3eeb9" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Passive_SeluniteOathbreaker_Devotion" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsToggled;ToggledDefaultAddToHotbar;IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Tag(PALADIN_DEVOTION)" />
+        <field name="ToggleGroup" type="StringTableFieldDefinition" value="SeluniteOathbreaker" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ee669661-a5ef-4cce-937c-bf10b3b97a90" />
+        <field name="Name" type="NameTableFieldDefinition" value="Passive_SeluniteOathbreaker_Vengence" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2d7db45ag750bgfa0fg9026g97dd65633ff9" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4640f381g6b69gb53eg4899g55d388040e51" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Passive_SeluniteOathbreaker_Vengeance" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsToggled;ToggledDefaultAddToHotbar;IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Tag(PALADIN_VENGEANCE)" />
+        <field name="ToggleGroup" type="StringTableFieldDefinition" value="SeluniteOathbreaker" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7df797c1-4c91-4500-8c72-cb7214bfb10a" />
+        <field name="Name" type="NameTableFieldDefinition" value="Passive_SeluniteOathbreaker_Oathbreaker" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h97fffa1cg39d4g79b8gaf18g60f7377e8e0b" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha77728b8gaea0g32e4gbec5g34d32ba43df3" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Passive_SeluniteOathbreaker_Oathbreaker" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsToggled;ToggledDefaultAddToHotbar;IsHidden" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(OATHBREAKER)" />
+        <field name="ToggleGroup" type="StringTableFieldDefinition" value="SeluniteOathbreaker" />
       </fields>
     </stat_object>
   </stat_objects>
